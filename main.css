@@ -1,0 +1,64 @@
+﻿ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: darkblue;
+    border-style: outset;
+    border-color: darkslateblue;
+    border-radius: 20px;
+}
+
+li {
+    display: inline;
+    border-style: outset;
+    border-color: darkslateblue;
+    border-radius: 30px;
+    text-align: center;
+}
+    li a {
+        color: white;
+        text-align: center;
+        padding: 19px 16px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+header {
+    border-style: outset;
+    border-color: darkslateblue;
+    border-radius: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: blue;
+    top: 30px;
+    width: 100%;
+    min-height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    background-color: black;
+} 
+
+p {
+    color: white;
+}
+
+input, button {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-style: outset;
+    border-color: darkslateblue;
+    border-radius: 20px;
+}
